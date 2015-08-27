@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
 
-@interface WeatherManager : NSObject
+@interface WeatherManager : AFHTTPSessionManager
 
     @property (strong) NSString *city;
     @property (strong, nonatomic) NSString *country;
