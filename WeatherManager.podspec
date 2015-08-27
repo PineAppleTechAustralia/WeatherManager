@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PineAppleTechAustralia/WeatherManager.git", :tag => "v1.1.0" }
   s.source_files  = "Pod/*"
   s.requires_arc = true
+  s.dependency "AFNetworking", "~> 2.0"
 
 end
