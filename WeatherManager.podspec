@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
 
   s.description  = <<-DESC
                    For PineApple Technology students.
+                   Used to learn how to connect to an external API.
                    DESC
   s.license      = "MIT"
   s.homepage     = "http://pineapp.com.au"
